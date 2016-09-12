@@ -15,6 +15,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo nitrogen_hammerhead-user
-add_lunch_combo nitrogen_hammerhead-userdebug
-add_lunch_combo nitrogen_hammerhead-end
+add_lunch_combo bliss_hammerhead-user
+add_lunch_combo bliss_hammerhead-userdebug
+add_lunch_combo bliss_hammerhead-end
