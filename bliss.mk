@@ -19,10 +19,10 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Inherit from the common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+# $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Bliss stuff.
-$(call inherit-product, vendor/bliss/products/common.mk)
+$(call inherit-product, vendor/bliss/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
