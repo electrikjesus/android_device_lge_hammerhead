@@ -1,0 +1,14 @@
+[
+ {
+   "remote": "github",
+   "repository": "electrikjesus/nitrogen_kernel_lge_hammerhead",
+   "target_path": "kernel/lge/hammerhead",
+   "revision": "n7.0"
+ },
+ {
+   "remote": "github",
+   "repository": "electrikjesus/android_vendor_lge_hammerhead",
+   "target_path": "vendor/lge/hammerhead",
+   "revision": "n7.0"
+ }
+]
